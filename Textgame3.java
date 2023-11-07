@@ -343,7 +343,7 @@ class HuntingZone {
 		System.out.println("2. 고등학교 일진");
 		System.out.println("3. 가정파괴범");
 		System.out.println("4. 블라디미르 푸틴");
-		System.out.println("\n전투할 상대를 입력하세요. : ");
+		System.out.print("\n전투할 상대를 입력하세요. : ");
 
 		Scanner in = new Scanner(System.in);
 		Monster m1 = new Monster(in.nextInt());

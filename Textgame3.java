@@ -9,7 +9,7 @@ public class Textgame3 {
 		System.out.println("**********RPG***********");
 		System.out.println("1. 전사");
 		System.out.println("2. 마법사");
-		System.out.println("3. 무에타이 챔피언 강동흔의 아들");
+		System.out.println("3. 무에타이 챔피언 강동흔");
 		System.out.print("\n직업의 번호를 입력하세요. : ");
 		Hero h1 = new Hero(in.nextInt());
 		h1.name_input();
